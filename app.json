@@ -1,0 +1,39 @@
+{
+    "name": "VyaM",
+    "displayName": "VyaM",
+    "expo": {
+        "name": "VyaM",
+        "slug": "vyam",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "dark",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#000000"
+        },
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.rakeshbade.vyam",
+            "infoPlist": {
+                "UIBackgroundModes": [
+                    "remote-notification"
+                ]
+            }
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#000000"
+            },
+            "package": "com.rakeshbade.vyam",
+            "permissions": [
+                "INTERNET"
+            ]
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
+    }
+}

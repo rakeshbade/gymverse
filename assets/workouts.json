@@ -1,0 +1,356 @@
+{
+    "version": 1.0,
+    "workouts": [
+        {
+            "id": "power_blast_01",
+            "title": "Power Blast",
+            "level": "Medium",
+            "duration_min": 45,
+            "met_value": 6.0,
+            "image_path": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+            "description": "A high-intensity full-body workout designed to build strength and endurance. Perfect for intermediate fitness enthusiasts looking to push their limits.",
+            "featured": true,
+            "exercises": [
+                {
+                    "name": "Jumping Jacks",
+                    "duration_sec": 300,
+                    "type": "warmup"
+                },
+                {
+                    "name": "Barbell Squats",
+                    "reps": "4x10",
+                    "type": "strength"
+                },
+                {
+                    "name": "Push-ups",
+                    "reps": "3x15",
+                    "type": "strength"
+                },
+                {
+                    "name": "Burpees",
+                    "duration_sec": 180,
+                    "type": "cardio"
+                },
+                {
+                    "name": "Plank Hold",
+                    "duration_sec": 120,
+                    "type": "strength"
+                },
+                {
+                    "name": "Mountain Climbers",
+                    "duration_sec": 120,
+                    "type": "cardio"
+                },
+                {
+                    "name": "Stretching",
+                    "duration_sec": 300,
+                    "type": "cooldown"
+                }
+            ]
+        },
+        {
+            "id": "morning_energizer",
+            "title": "Morning Energizer",
+            "level": "Easy",
+            "duration_min": 20,
+            "met_value": 4.5,
+            "image_path": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b",
+            "description": "Start your day with this refreshing morning routine. Light exercises to wake up your body and boost energy levels.",
+            "featured": true,
+            "exercises": [
+                {
+                    "name": "Arm Circles",
+                    "duration_sec": 120,
+                    "type": "warmup"
+                },
+                {
+                    "name": "Bodyweight Squats",
+                    "reps": "3x12",
+                    "type": "strength"
+                },
+                {
+                    "name": "Walking Lunges",
+                    "reps": "2x10",
+                    "type": "strength"
+                },
+                {
+                    "name": "High Knees",
+                    "duration_sec": 90,
+                    "type": "cardio"
+                },
+                {
+                    "name": "Cat-Cow Stretch",
+                    "duration_sec": 120,
+                    "type": "cooldown"
+                }
+            ]
+        },
+        {
+            "id": "beast_mode_extreme",
+            "title": "Beast Mode Extreme",
+            "level": "Heavy",
+            "duration_min": 60,
+            "met_value": 8.5,
+            "image_path": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
+            "description": "Unleash your inner beast! This intense workout is designed for advanced athletes ready to crush their fitness goals with maximum effort.",
+            "featured": true,
+            "exercises": [
+                {
+                    "name": "Dynamic Stretching",
+                    "duration_sec": 300,
+                    "type": "warmup"
+                },
+                {
+                    "name": "Deadlifts",
+                    "reps": "5x8",
+                    "type": "strength"
+                },
+                {
+                    "name": "Bench Press",
+                    "reps": "4x10",
+                    "type": "strength"
+                },
+                {
+                    "name": "Pull-ups",
+                    "reps": "4x8",
+                    "type": "strength"
+                },
+                {
+                    "name": "Box Jumps",
+                    "reps": "3x12",
+                    "type": "cardio"
+                },
+                {
+                    "name": "Battle Ropes",
+                    "duration_sec": 180,
+                    "type": "cardio"
+                },
+                {
+                    "name": "Plank to Push-up",
+                    "reps": "3x10",
+                    "type": "strength"
+                },
+                {
+                    "name": "Foam Rolling",
+                    "duration_sec": 300,
+                    "type": "cooldown"
+                }
+            ]
+        },
+        {
+            "id": "cardio_burn",
+            "title": "Cardio Burn",
+            "level": "Medium",
+            "duration_min": 30,
+            "met_value": 7.0,
+            "image_path": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8",
+            "description": "Torch calories with this cardio-focused workout. Great for improving cardiovascular health and burning fat.",
+            "exercises": [
+                {
+                    "name": "Light Jogging",
+                    "duration_sec": 300,
+                    "type": "warmup"
+                },
+                {
+                    "name": "Jump Rope",
+                    "duration_sec": 240,
+                    "type": "cardio"
+                },
+                {
+                    "name": "High Knees",
+                    "duration_sec": 180,
+                    "type": "cardio"
+                },
+                {
+                    "name": "Burpees",
+                    "duration_sec": 180,
+                    "type": "cardio"
+                },
+                {
+                    "name": "Mountain Climbers",
+                    "duration_sec": 180,
+                    "type": "cardio"
+                },
+                {
+                    "name": "Cool Down Walk",
+                    "duration_sec": 300,
+                    "type": "cooldown"
+                }
+            ]
+        },
+        {
+            "id": "core_crusher",
+            "title": "Core Crusher",
+            "level": "Medium",
+            "duration_min": 25,
+            "met_value": 5.5,
+            "image_path": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b",
+            "description": "Sculpt your core with targeted exercises. Build a strong foundation for all your fitness activities.",
+            "exercises": [
+                {
+                    "name": "Torso Twists",
+                    "duration_sec": 120,
+                    "type": "warmup"
+                },
+                {
+                    "name": "Plank",
+                    "duration_sec": 180,
+                    "type": "strength"
+                },
+                {
+                    "name": "Russian Twists",
+                    "reps": "3x20",
+                    "type": "strength"
+                },
+                {
+                    "name": "Bicycle Crunches",
+                    "reps": "3x15",
+                    "type": "strength"
+                },
+                {
+                    "name": "Leg Raises",
+                    "reps": "3x12",
+                    "type": "strength"
+                },
+                {
+                    "name": "Dead Bug",
+                    "reps": "3x10",
+                    "type": "strength"
+                },
+                {
+                    "name": "Spinal Twist Stretch",
+                    "duration_sec": 180,
+                    "type": "cooldown"
+                }
+            ]
+        },
+        {
+            "id": "beginner_basics",
+            "title": "Beginner Basics",
+            "level": "Easy",
+            "duration_min": 15,
+            "met_value": 3.5,
+            "image_path": "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+            "description": "Perfect for those just starting their fitness journey. Learn fundamental movements with proper form.",
+            "exercises": [
+                {
+                    "name": "Gentle Stretching",
+                    "duration_sec": 180,
+                    "type": "warmup"
+                },
+                {
+                    "name": "Wall Push-ups",
+                    "reps": "2x10",
+                    "type": "strength"
+                },
+                {
+                    "name": "Chair Squats",
+                    "reps": "2x12",
+                    "type": "strength"
+                },
+                {
+                    "name": "Standing Knee Raises",
+                    "reps": "2x10",
+                    "type": "cardio"
+                },
+                {
+                    "name": "Full Body Stretch",
+                    "duration_sec": 240,
+                    "type": "cooldown"
+                }
+            ]
+        },
+        {
+            "id": "upper_body_strength",
+            "title": "Upper Body Strength",
+            "level": "Heavy",
+            "duration_min": 50,
+            "met_value": 7.5,
+            "image_path": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1",
+            "description": "Build powerful arms, chest, and back with compound and isolation movements.",
+            "exercises": [
+                {
+                    "name": "Arm Swings",
+                    "duration_sec": 180,
+                    "type": "warmup"
+                },
+                {
+                    "name": "Bench Press",
+                    "reps": "4x8",
+                    "type": "strength"
+                },
+                {
+                    "name": "Overhead Press",
+                    "reps": "4x10",
+                    "type": "strength"
+                },
+                {
+                    "name": "Bent Over Rows",
+                    "reps": "4x10",
+                    "type": "strength"
+                },
+                {
+                    "name": "Bicep Curls",
+                    "reps": "3x12",
+                    "type": "strength"
+                },
+                {
+                    "name": "Tricep Dips",
+                    "reps": "3x12",
+                    "type": "strength"
+                },
+                {
+                    "name": "Shoulder Stretch",
+                    "duration_sec": 240,
+                    "type": "cooldown"
+                }
+            ]
+        },
+        {
+            "id": "lower_body_blast",
+            "title": "Lower Body Blast",
+            "level": "Heavy",
+            "duration_min": 45,
+            "met_value": 7.0,
+            "image_path": "https://images.unsplash.com/photo-1434682881908-b43d0467b798",
+            "description": "Develop powerful legs and glutes with compound movements and explosive exercises.",
+            "exercises": [
+                {
+                    "name": "Leg Swings",
+                    "duration_sec": 180,
+                    "type": "warmup"
+                },
+                {
+                    "name": "Back Squats",
+                    "reps": "5x8",
+                    "type": "strength"
+                },
+                {
+                    "name": "Romanian Deadlifts",
+                    "reps": "4x10",
+                    "type": "strength"
+                },
+                {
+                    "name": "Walking Lunges",
+                    "reps": "3x12",
+                    "type": "strength"
+                },
+                {
+                    "name": "Leg Press",
+                    "reps": "4x12",
+                    "type": "strength"
+                },
+                {
+                    "name": "Calf Raises",
+                    "reps": "3x15",
+                    "type": "strength"
+                },
+                {
+                    "name": "Quad Stretch",
+                    "duration_sec": 240,
+                    "type": "cooldown"
+                }
+            ]
+        }
+    ]
+}

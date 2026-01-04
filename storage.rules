@@ -1,0 +1,20 @@
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Master workout library - read-only for all authenticated users
+    match /master/{allPaths=**} {
+      allow read: if request.auth != null;
+      allow write: if false; // Only admins can update via console
+    }
+    
+    // Training images - read-only for all authenticated users
+    match /training/{allPaths=**} {
+      allow read: if request.auth != null;
+      allow write: if false; // Only admins can upload via console
+    }
+    
+    // Deny all other access
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
